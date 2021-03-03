@@ -6,13 +6,13 @@
   <meta name="viewport" content="width=device-width"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- creative design for our courses -->
-  <link rel="stylesheet" type="text/css" href="{{asset('/dist/courses/bootstrap.min.css')}}">
-  <link rel="stylesheet" type="text/css" href="{{asset('/dist/courses/style.css')}}">
+  <link rel="stylesheet" type="text/css" href="{{secure_asset('/dist/courses/bootstrap.min.css')}}">
+  <link rel="stylesheet" type="text/css" href="{{secure_asset('/dist/courses/style.css')}}">
 
   <!-- AOS bootstrap and css -->
-  <link rel="stylesheet" href="{{asset('/dist/css/aos.css')}}">
+  <link rel="stylesheet" href="{{secure_asset('/dist/css/aos.css')}}">
   <!-- customize css -->
-  <link rel="stylesheet" type="text/css" href="{{asset('/dist/css/index.css')}}">
+  <link rel="stylesheet" type="text/css" href="{{secure_asset('/dist/css/index.css')}}">
 
   <style type="text/css">
   .navbar ul li:nth-child(2) a{
@@ -169,8 +169,8 @@
 
 
 <!-- AOS scripts -->
-<script src="{{asset('/dist/js/aos.js')}}"></script>
-<script src="{{asset('/dist/js/main.js')}}"></script>
+<script src="{{secure_asset('/dist/js/aos.js')}}"></script>
+<script src="{{secure_asset('/dist/js/main.js')}}"></script>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>

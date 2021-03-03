@@ -1,0 +1,192 @@
+.navbar {
+  height: 80px;
+  background-color: #fff;
+  border: none;
+  color: white;
+  z-index: 100;
+  -webkit-transition: background-color 1s ease 0s;
+  transition: background-color 1s ease 0s;
+  box-shadow: 0 0 4px grey;
+  position: relative;
+}
+
+.navbar-default .navbar-brand {
+  margin-top: 10px;
+  color: grey;
+}
+.navbar-default .navbar-brand:hover {
+  color: #C57ED3;
+  /*border: 1px solid #C57ED3;*/
+}
+.navbar-default .navbar-nav > li > a {
+  color: grey;
+  margin: 10px 5px 5px 5px;
+  font-size: 14px;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:active, .navbar-default .navbar-nav > li > a:focus {
+  color: #C57ED3;
+  /*border: 1px solid #C57ED3;*/
+}
+.navbar-default .navbar-nav > li > a:visited {
+  /*color: #C57ED3;*/
+  text-decoration: none;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+  background-color: transparent;
+  color: #C57ED3;
+}
+.navbar-default .navbar-toggle {
+  border-color: #C57ED3;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+  background-color: #490D40;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  color: #C57ED3;
+  background-color: #C57ED3;
+}
+.navbar-default .navbar-collapse.collapse.in ul {
+  background-color: #490D40;
+}
+
+/* Solid class attached on scroll past first section */
+.navbar.solid {
+  background-color: #fff;
+  -webkit-transition: background-color 1s ease 0s;
+  transition: background-color 1s ease 0s;
+  box-shadow: 0 0 4px grey;
+  opacity: 1;
+}
+.navbar.solid .navbar-brand {
+  color: #C57ED3;
+  -webkit-transition: color 1s ease 0s;
+  transition: color 1s ease 0s;
+}
+.navbar.solid .navbar-nav > li > a {
+  color: grey;
+  -webkit-transition: color 1s ease 0s;
+  transition: color 1s ease 0s;
+}
+
+#container {
+  background-color: #fff;
+  color: #490D40;
+  height: 900px;
+  text-align: center;
+  margin-top: -20px;
+}
+#container h2 {
+  padding-top: 220px;
+}
+.about p {
+  padding: 20px 80px;
+}
+
+
+
+
+/*imahe hover effect*/
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.main-title {
+  color: #2d2d2d;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 0.7em 0;
+}
+#work-section {
+  position: relative;
+  height: 400px;
+}
+#work-section .image-box {
+  position: relative;
+  padding: 1em 0;
+  float: left;
+  width: 50%;
+}
+@media screen and (max-width: 640px) {
+  #work-section .image-box {
+    display: block;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 900px) {
+  #work-section .image-box {
+    width: 33.33333%;
+  }
+}
+#work-section .image-box .title {
+  color: #1a1a1a;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.content {
+  position: relative;
+  width: 90%;
+  max-width: 400px;
+  margin: auto;
+  overflow: hidden;
+}
+.content .content-overlay {
+  background: rgba(0, 0, 0, 0.7);
+  position: absolute;
+  height: 99%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  -moz-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+.content:hover .content-overlay {
+  opacity: 1;
+}
+.content-image {
+  width: 100%;
+}
+.content-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+.content:hover .content-details {
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+.content-details h3 {
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  margin-bottom: 0.5em;
+  text-transform: uppercase;
+}
+.content-details p {
+  color: #fff;
+  font-size: 0.8em;
+}
+.fadeIn-bottom {
+  top: 80%;
+}

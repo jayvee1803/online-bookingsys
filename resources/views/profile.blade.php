@@ -6,17 +6,17 @@
   <meta name="viewport" content="width=device-width"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- creative design for our courses -->
-  <link rel="stylesheet" type="text/css" href="{{asset('/dist/courses/bootstrap.min.css')}}">
-  <link rel="stylesheet" type="text/css" href="{{asset('/dist/courses/style.css')}}">
+  <link rel="stylesheet" type="text/css" href="{{secure_asset('/dist/courses/bootstrap.min.css')}}">
+  <link rel="stylesheet" type="text/css" href="{{secure_asset('/dist/courses/style.css')}}">
 
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700" rel="stylesheet">
 
 <!-- modal  -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" />
   <!-- customize css -->
-  <link rel="stylesheet" type="text/css" href="{{asset('/dist/css/index.css')}}">
-  <link rel="stylesheet" type="text/css" href="{{asset('/dist/css/profile.css')}}">
-  <!-- <link rel="stylesheet" href="{{asset('/dist/css/register.css')}}"> -->
+  <link rel="stylesheet" type="text/css" href="{{secure_asset('/dist/css/index.css')}}">
+  <link rel="stylesheet" type="text/css" href="{{secure_asset('/dist/css/profile.css')}}">
+  <!-- <link rel="stylesheet" href="{{secure_asset('/dist/css/register.css')}}"> -->
   <style>
     .navbar ul li a{
     color: #fff;

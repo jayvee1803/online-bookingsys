@@ -6,12 +6,12 @@
   <meta name="viewport" content="width=device-width"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <!-- creative design for our courses -->
-  <link rel="stylesheet" type="text/css" href="{{asset('/dist/courses/bootstrap.min.css')}}">
-  <link rel="stylesheet" type="text/css" href="{{asset('/dist/courses/style.css')}}">
+  <link rel="stylesheet" type="text/css" href="{{secure_asset('/dist/courses/bootstrap.min.css')}}">
+  <link rel="stylesheet" type="text/css" href="{{secure_asset('/dist/courses/style.css')}}">
 
   <!-- customize css -->
-  <link rel="stylesheet" type="text/css" href="{{asset('/dist/css/index.css')}}">
-	<link rel="stylesheet" href="{{asset('/dist/css/register.css')}}">
+  <link rel="stylesheet" type="text/css" href="{{secure_asset('/dist/css/index.css')}}">
+	<link rel="stylesheet" href="{{secure_asset('/dist/css/register.css')}}">
 </head>
 <body>
 <!-- navbar -->
